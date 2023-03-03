@@ -1,0 +1,9 @@
+name: Twig Views
+description: 'Provides the ability to render a view with title in twig.'
+type: module
+core_version_requirement: ^8 || ^9 || ^10
+
+# Information added by Drupal.org packaging script on 2022-08-02
+version: '8.x-1.4'
+project: 'twig_views'
+datestamp: 1659461739

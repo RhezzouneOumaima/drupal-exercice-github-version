@@ -1322,6 +1322,62 @@
             "install-path": "../../web/modules/contrib/simplify_menu"
         },
         {
+            "name": "drupal/twig_tweak",
+            "version": "2.10.0",
+            "version_normalized": "2.10.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/twig_tweak.git",
+                "reference": "8.x-2.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/twig_tweak-8.x-2.10.zip",
+                "reference": "8.x-2.10",
+                "shasum": "02877fcf73744d06f1a10280ce07ea55c38d238f"
+            },
+            "require": {
+                "drupal/core": "^8.7 || ^9.0",
+                "twig/twig": "^1.41 || ^2.12"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Better dump() function for debugging Twig variables"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.10",
+                    "datestamp": "1663947949",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Chi",
+                    "homepage": "https://www.drupal.org/user/556138"
+                }
+            ],
+            "description": "A Twig extension with some useful functions and filters for Drupal development.",
+            "homepage": "https://www.drupal.org/project/twig_tweak",
+            "keywords": [
+                "Drupal",
+                "Twig"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/twig_tweak",
+                "issues": "https://www.drupal.org/project/issues/twig_tweak"
+            },
+            "install-path": "../../web/modules/contrib/twig_tweak"
+        },
+        {
             "name": "drupal/twig_vardumper",
             "version": "3.1.0",
             "version_normalized": "3.1.0.0",
@@ -1375,6 +1431,53 @@
                 "issues": "https://www.drupal.org/project/issues/twig_vardumper"
             },
             "install-path": "../../web/modules/contrib/twig_vardumper"
+        },
+        {
+            "name": "drupal/twig_views",
+            "version": "1.4.0",
+            "version_normalized": "1.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/twig_views.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/twig_views-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "2316d8b7c98f993ba62b91346022a3fd8b1c4629"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1659461737",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "berramou",
+                    "homepage": "https://www.drupal.org/user/3535998"
+                }
+            ],
+            "description": "Provides the ability to render a view with title in twig.",
+            "homepage": "https://www.drupal.org/project/twig_views",
+            "support": {
+                "source": "https://git.drupalcode.org/project/twig_views"
+            },
+            "install-path": "../../web/modules/contrib/twig_views"
         },
         {
             "name": "drupal/video_embed_field",

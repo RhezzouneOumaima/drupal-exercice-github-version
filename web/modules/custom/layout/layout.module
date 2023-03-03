@@ -37,6 +37,10 @@ function layout_theme($existing, $type, $theme, $path) {
                 'node__view__queue_actuality' =>
                 [
                     'template' => 'node--view--queue-actuality'
+                ],
+                'node__view__most_viewd_actualities' =>
+                [
+                    'template' => 'node--view--most-viewd-actualities'
                 ]
             ];
 }
