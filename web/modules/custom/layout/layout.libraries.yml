@@ -1,0 +1,6 @@
+fancybox:
+  js:
+    dist/jquery.fancybox.min.js: {}
+  css:
+    theme:
+      dist/jquery.fancybox.min.css: {}

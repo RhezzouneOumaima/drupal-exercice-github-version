@@ -29,6 +29,10 @@ function layout_theme($existing, $type, $theme, $path) {
                 'node__actuality__full' =>
                 [
                     'template' => 'node--actuality--full'
+                ],
+                'node__view__last_media' =>
+                [
+                    'template' => 'node--view--last-media'
                 ]
             ];
 }

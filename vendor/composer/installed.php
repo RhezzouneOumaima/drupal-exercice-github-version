@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'b9055ce08c6bf7538a63f100975707c6837e3adb',
+        'reference' => '67b86b2a60d15720cfd579b493bae188734bc7e8',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -171,6 +171,15 @@
             'replaced' => array(
                 0 => '9.0.2',
             ),
+        ),
+        'drupal/colorbox' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'reference' => '2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/colorbox',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/comment' => array(
             'dev_requirement' => false,
@@ -655,7 +664,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'b9055ce08c6bf7538a63f100975707c6837e3adb',
+            'reference' => '67b86b2a60d15720cfd579b493bae188734bc7e8',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -2,3 +2,5 @@ name: layout
 type: module
 description: 'Layouts  of my page'
 core_version_requirement: ^9 || ^10
+libraries:
+  - layout/fancybox
