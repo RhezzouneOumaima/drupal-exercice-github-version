@@ -33,6 +33,10 @@ function layout_theme($existing, $type, $theme, $path) {
                 'node__view__last_media' =>
                 [
                     'template' => 'node--view--last-media'
+                ],
+                'node__view__queue_actuality' =>
+                [
+                    'template' => 'node--view--queue-actuality'
                 ]
             ];
 }
